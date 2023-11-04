@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 
-function EditForm({
+function EditModal({
   item = {},
   setEdit = () => {},
   setFilteredData,
@@ -87,4 +87,4 @@ function EditForm({
   );
 }
 
-export default EditForm;
+export default EditModal;

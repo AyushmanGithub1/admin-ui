@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import EditForm from "./EditForm";
+import EditModal from "./EditModal";
 import editIcon from "./../../../assets/edit_icon.png";
 import deleteIcon from "../../../assets/trash_icon.png";
 
@@ -63,7 +63,7 @@ function Card({
         </td>
       </tr>
       {edit && (
-        <EditForm
+        <EditModal
           index={index}
           setFilteredData={setFilteredData}
           item={item}
