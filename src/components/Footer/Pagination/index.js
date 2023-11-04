@@ -8,17 +8,17 @@ function Pagination({
   handleLastPagination,
 }) {
   return (
-    <div>
-      <button className={styles.pagination_btn1} type="button" onClick={handleFirstPagination}>
+    <div className={styles.container}>
+      <button type="button" style={{backgroundColor:'#33333368'}} onClick={handleFirstPagination}>
         First
       </button>
-      <button className={styles.pagination_btn} type="button" onClick={handlePrevPagination}>
+      <button type="button" onClick={handlePrevPagination}>
         Prev
       </button>
-      <button className={styles.pagination_btn} type="button" onClick={handleNextPagination}>
+      <button type="button" onClick={handleNextPagination}>
         Next
       </button>
-      <button className={styles.pagination_btn1} type="button" onClick={handleLastPagination}>
+      <button type="button" style={{backgroundColor:'#33333368'}} onClick={handleLastPagination}>
         Last
       </button>
     </div>

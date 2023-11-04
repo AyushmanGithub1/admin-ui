@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 function DeleteAll({ handleDeleteAll }) {
   return (
-    <button className={styles.delete_all_btn} type="button" onClick={handleDeleteAll}>
+    <button className={styles.btn_delete_all} type="button" onClick={handleDeleteAll}>
       Delete Selected
     </button>
   );

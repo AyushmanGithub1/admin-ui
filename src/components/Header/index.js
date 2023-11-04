@@ -8,6 +8,7 @@ function Header({ setQ }) {
       <input
         className={styles.input}
         type="text"
+        autoComplete="off"
         name="search"
         placeholder="Search by name, email or role"
         onChange={(e) => setQ(e.target.value)}

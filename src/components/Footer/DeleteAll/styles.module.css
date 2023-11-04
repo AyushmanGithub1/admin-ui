@@ -1,8 +1,11 @@
-.delete_all_btn{
-    padding: 4px 8px;
-    background-color: red;
+.btn_delete_all{
+    padding: 9px 11px;
+    background-color: #ea3323;
     color: white;
     border: 1px solid;
     border-radius: 10px;
     cursor: pointer;
+}
+.btn_delete_all:hover{
+    background-color: #e25744;
 }

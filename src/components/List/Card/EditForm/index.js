@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styles from "./styles.module.css";
 
 function EditForm({
-  index,
   item = {},
   setEdit = () => {},
   setFilteredData,

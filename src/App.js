@@ -1,10 +1,10 @@
 import './App.css';
-import Admin from './components/Admin';
+import UI from './components/UI';
 
 function App() {
   return (
     <div className="App">
-      <Admin></Admin>
+      <UI></UI>
     </div>
   );
 }
