@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import  ReactDOM  from "react-dom";
 import styles from "./styles.module.css";
 
 function EditModal({
@@ -24,7 +25,9 @@ function EditModal({
     setEdit(false);
   };
 
-  return (
+  return ReactDOM.createPortal(
+    <>
+    <div className={styles.overlay}/>
     <div className={styles.container}>
       <form>
         <div className={styles.field}>
@@ -84,6 +87,8 @@ function EditModal({
         </button>
       </div>
     </div>
+    </>,
+    document.getElementById('portal')
   );
 }
 
